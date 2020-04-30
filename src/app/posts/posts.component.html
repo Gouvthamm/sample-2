@@ -1,0 +1,22 @@
+<div >
+    <table>
+        <tr *ngFor='let item of (response| async)'>
+        <td>{{item.userId}}</td>  
+        <td>{{item.title}}</td>
+        <td>{{item.body}}</td></tr>
+    </table>
+</div>
+<!-- <table >
+   
+    <th>ID</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Age</th>
+      <tr  *ngFor='let data of (response| async)'>
+    <td>{{data.id}}</td>
+    <td>{{data.employee_name}}</td>
+    <td>{{data.employee_salary}}</td>
+    <td>{{data.employee_age}}</td></tr>
+
+  
+</table> -->
